@@ -5,7 +5,7 @@ import axios from "axios";
 import { AuthModule } from "./modules/auth/auth.module";
 import { BlogModule } from "./modules/blog/blog.module";
 
-axios.defaults.baseURL = "http://localhost:8800/";
+axios.defaults.baseURL = "http://localhost:8800/api";
 
 Vue.use(Vuex);
 
