@@ -15,7 +15,7 @@ Vue.use(Toasted, {
     fullWidth: false
 });
 
-Vue.toasted.register("error", "Sorry, Some Error Occurred!", {
+Vue.toasted.register("error", "Sorry, +Some Error Occurred!", {
     type: "error"
 });
 
