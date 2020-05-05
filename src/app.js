@@ -8,6 +8,7 @@ Vue.config.productionTip = false;
 import Toasted from "vue-toasted";
 import { mixins } from "./helpers/mixins";
 
+
 Vue.use(Toasted, {
     position: "top-right",
     theme: "bubble",

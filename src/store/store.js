@@ -5,7 +5,7 @@ import axios from "axios";
 import { AuthModule } from "./modules/auth/auth.module";
 import { BlogModule } from "./modules/blog/blog.module";
 
-axios.defaults.baseURL = "http://localhost:8800/api";
+axios.defaults.baseURL = "https://blogtaskapp.herokuapp.com/api";
 
 Vue.use(Vuex);
 
